@@ -50,6 +50,7 @@ apt install sox ffmpeg
 ## Usage
 
 ```js
+// gatsby-config.js
 module.exports = {
   plugins: [
     {
@@ -65,4 +66,4 @@ module.exports = {
 };
 ```
 
-Also if you already had wav files included in your site don't forget to clear the cache (`gatsby clear`) for once.
+Also if you already had wav files included in your site don't forget to clear the cache (`gatsby clean`) for once.
