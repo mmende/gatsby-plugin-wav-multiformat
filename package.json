@@ -1,0 +1,10 @@
+{
+  "name": "gatsby-plugin-wav-multiformat",
+  "version": "1.0.0",
+  "description": "Converts all wav file nodes to different other formats such as mp4 (aac), ogg (vobis) and flac by using ffmpeg and sox.",
+  "main": "gatsby-node.js",
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp": "^1.0.4"
+  }
+}
