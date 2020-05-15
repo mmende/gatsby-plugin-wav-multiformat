@@ -21,7 +21,7 @@ const re = /\.wav$/
 const MyAudioComponent = ({ src }) => {
   return (
     <audio controls>
-      <source src={src.replace(re, '.m4a')} type="audio/mp4; codecs=aac"/>
+      <source src={src.replace(re, '.m4a')} type="audio/mp4"/>
       <source src={src.replace(re, '.ogg')} type="audio/ogg; codecs=vorbis"/>
       <source src={src.replace(re, '.flac')} type="audio/flac	"/>
       <source src={src} type="audio/wav">
