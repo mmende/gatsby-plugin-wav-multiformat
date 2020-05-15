@@ -1,8 +1,8 @@
 # gatsby-plugin-wav-multiformat
 
-This plugin simply takes all wav file nodes and adds mp4 (aac), ogg (vobis) and flac versions of these files in the same static folder as the original file. You can therefore after querying the wav file rewrite this:
+This plugin simply takes all wav file nodes created by `gatsby-source-filesystem` and adds mp4 (aac), ogg (vobis) and flac versions of these files in the same static folder as the original file. You can therefore after querying the wav file rewrite this:
 
-```
+```jsx
 const MyAudioComponent = ({ src }) => {
   return (
     <audio controls>
@@ -15,7 +15,7 @@ const MyAudioComponent = ({ src }) => {
 
 to this
 
-```
+```jsx
 const re = /\.wav$/
 
 const MyAudioComponent = ({ src }) => {
