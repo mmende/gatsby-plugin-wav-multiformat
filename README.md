@@ -24,7 +24,7 @@ const MyAudioComponent = ({ src }) => {
       <source src={src.replace(re, '.m4a')} type="audio/mp4"/>
       <source src={src.replace(re, '.ogg')} type="audio/ogg; codecs=vorbis"/>
       <source src={src.replace(re, '.flac')} type="audio/flac	"/>
-      <source src={src} type="audio/wav">
+      <source src={src} type="audio/wav" />
       Your browser does not support the <code>audio</code> element.
     </audio>
   )
