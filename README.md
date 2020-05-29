@@ -6,7 +6,7 @@ This plugin simply takes all wav file nodes created by `gatsby-source-filesystem
 const MyAudioComponent = ({ src }) => {
   return (
     <audio controls>
-      <source src={src} type="audio/wav">
+      <source src={src} type="audio/wav" />
       Your browser does not support the <code>audio</code> element.
     </audio>
   )
